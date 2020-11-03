@@ -27,19 +27,19 @@ const Author = () => {
   return (
     <>
       {!loading ? (
-        <form onSubmit={submit} className="options__item">
-          <h3 className="option__title">Enter author</h3>
+        <form onSubmit={submit} className="filters__item">
+          <h3 className="filter__title">Enter author</h3>
           <input
             type="text"
-            className="option__input"
+            className="filter__input"
             onChange={(e) => setAuthor(e.target.value)}
             aria-label="author"
           />
-          <button type="submit" className="option__btn btn">
+          <button type="submit" className="filter__btn btn">
             Filter
           </button>
           {isError ? (
-            <p className="option__error error-message">{error}</p>
+            <p className="filter__error error-message">{error}</p>
           ) : null}
         </form>
       ) : null}

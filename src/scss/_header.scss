@@ -1,0 +1,21 @@
+.header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__title {
+        text-align: center;
+        font-size: 30px;
+        padding: 5px;
+        border-bottom: 2px solid $primary-color;
+
+        @media(min-width: 600px) {
+            font-size: 40px;
+        }
+    }
+
+    &__logo {
+        width: 100px;
+    }
+}

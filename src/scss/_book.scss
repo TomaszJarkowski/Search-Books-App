@@ -1,0 +1,28 @@
+.book {
+    padding: 20px;
+    margin: 10px;
+    background-color: whitesmoke;
+    color: $bg-color;
+    border-radius: 30px;
+    max-width: 600px;
+    text-align: center;
+
+    @media (min-width:600px) {
+        margin: 20px auto;
+        border-left: 20px solid $primary-color;
+    }
+
+    &__title {
+        margin: 10px 20px;
+    }
+
+    &__description {
+        margin: 10px 20px;
+    }
+
+    &__img {
+        display: block;
+        margin: 10px auto;
+        width: 150px;
+    }
+}

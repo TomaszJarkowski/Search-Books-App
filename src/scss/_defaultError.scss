@@ -1,0 +1,21 @@
+.defaultError {
+    padding: 20px;
+    background-color: rgb(202, 82, 82);
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    max-width: 700px;
+    margin: 10px 20px;
+    margin-bottom: 60px;
+
+    @media (min-width: 700px) {
+        margin: 10px auto;
+        margin-bottom: 60px;
+    }
+
+    @media (min-width: 700px) {
+        font-size: 24px;
+    }
+}

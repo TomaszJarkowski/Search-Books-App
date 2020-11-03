@@ -34,9 +34,9 @@ const PublishedDate = () => {
   return (
     <>
       {!loading ? (
-        <form className="options__item">
-          <h3 className="option__title">Select published date</h3>
-          <select className="option__select" onChange={handleChange}>
+        <form className="filters__item">
+          <h3 className="filter__title">Select published date</h3>
+          <select className="filter__select" onChange={handleChange}>
             <option key={"firstOption"} value="null">
               -
             </option>

@@ -1,6 +1,6 @@
 const DefaultError = () => {
   return (
-    <div className="error">
+    <div className="defaultError">
       Sorry something went wrong. Please try again later ‼
     </div>
   );

@@ -1,0 +1,21 @@
+.emptyBooksList {
+    padding: 20px;
+    background-color: orange;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: $bg-color;
+    max-width: 600px;
+    margin: 10px 20px;
+    margin-bottom: 60px;
+
+    @media (min-width: 600px) {
+        margin: 10px auto;
+        margin-bottom: 60px;
+    }
+
+    @media (min-width: 390px) {
+        font-size: 24px;
+    }
+}

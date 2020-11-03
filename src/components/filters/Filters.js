@@ -4,9 +4,9 @@ import PublishedDate from "./PublishedDate";
 
 const Options = () => {
   return (
-    <div className="options">
-      <h2 className="options__title">Filters</h2>
-      <div className="options__items">
+    <div className="filters">
+      <h2 className="filters__title">Filters</h2>
+      <div className="filters__items">
         <Author />
         <Language />
         <PublishedDate />
