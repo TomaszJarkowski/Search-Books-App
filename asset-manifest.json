@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/search-books-app/static/css/main.8365a094.chunk.css",
+    "main.js": "/search-books-app/static/js/main.102c4a06.chunk.js",
+    "main.js.map": "/search-books-app/static/js/main.102c4a06.chunk.js.map",
+    "runtime-main.js": "/search-books-app/static/js/runtime-main.aef16955.js",
+    "runtime-main.js.map": "/search-books-app/static/js/runtime-main.aef16955.js.map",
+    "static/js/2.1ff50948.chunk.js": "/search-books-app/static/js/2.1ff50948.chunk.js",
+    "static/js/2.1ff50948.chunk.js.map": "/search-books-app/static/js/2.1ff50948.chunk.js.map",
+    "static/js/3.c4d84988.chunk.js": "/search-books-app/static/js/3.c4d84988.chunk.js",
+    "static/js/3.c4d84988.chunk.js.map": "/search-books-app/static/js/3.c4d84988.chunk.js.map",
+    "index.html": "/search-books-app/index.html",
+    "static/css/main.8365a094.chunk.css.map": "/search-books-app/static/css/main.8365a094.chunk.css.map",
+    "static/js/2.1ff50948.chunk.js.LICENSE.txt": "/search-books-app/static/js/2.1ff50948.chunk.js.LICENSE.txt",
+    "static/media/TT.small.5960418a.png": "/search-books-app/static/media/TT.small.5960418a.png",
+    "static/media/defaultBook.4d539b1b.jpg": "/search-books-app/static/media/defaultBook.4d539b1b.jpg",
+    "static/media/undraw_Bookshelves_re_lxoy.a9499928.svg": "/search-books-app/static/media/undraw_Bookshelves_re_lxoy.a9499928.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aef16955.js",
+    "static/js/2.1ff50948.chunk.js",
+    "static/css/main.8365a094.chunk.css",
+    "static/js/main.102c4a06.chunk.js"
+  ]
+}
