@@ -5,6 +5,7 @@ import BooksList from "./components/books/BooksList";
 import Footer from "./components/layout/Footer";
 import FirstView from "./components/layout/FirstView";
 import { BooksContext } from "./context/BookContext";
+import Filters from "./components/filters/Filters";
 
 const App = () => {
   const { isSearched } = useContext(BooksContext);
@@ -17,6 +18,7 @@ const App = () => {
         <FirstView />
       ) : (
         <>
+          <Filters />
           <BooksList />
         </>
       )}
